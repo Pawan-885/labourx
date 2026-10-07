@@ -1,0 +1,1 @@
+{"expo":{"name":"LabourX","slug":"labourx","scheme":"labourx","version":"0.1.0","plugins":["expo-router","expo-secure-store","expo-location","expo-notifications"],"ios":{"supportsTablet":true},"android":{"package":"com.labourx.app"}}}

@@ -1,0 +1,2 @@
+import {View,Text,Pressable} from 'react-native'; import {router} from 'expo-router';
+export default function Customer(){return <View style={{flex:1,padding:28,justifyContent:'center'}}><Text style={{fontSize:30,fontWeight:'800'}}>Customer</Text><Text style={{marginTop:12,color:'#667085'}}>Book a plumber, track assignment, chat, pay and review.</Text><Pressable style={{marginTop:24,padding:16,borderRadius:14,backgroundColor:'#111827'}} onPress={()=>router.push('/booking')}><Text style={{color:'white',textAlign:'center'}}>Request Plumber</Text></Pressable></View>}

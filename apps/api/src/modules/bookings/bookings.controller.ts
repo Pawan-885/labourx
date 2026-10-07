@@ -1,0 +1,2 @@
+import { Body, Controller, Get, Param, Patch, Post } from '@nestjs/common'; import { BookingsService } from './bookings.service';
+@Controller('bookings') export class BookingsController { constructor(private readonly service:BookingsService){} @Post() create(@Body() body:any){return this.service.create(body);} @Get(':id') get(@Param('id') id:string){return this.service.get(id);} @Patch(':id/status') status(@Param('id') id:string,@Body('status') status:string){return this.service.transition(id,status);} }

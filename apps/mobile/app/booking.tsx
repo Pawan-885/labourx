@@ -1,0 +1,2 @@
+import {View,Text,Pressable} from 'react-native';
+export default function Booking(){return <View style={{flex:1,padding:28,justifyContent:'center'}}><Text style={{fontSize:28,fontWeight:'800'}}>Plumbing request</Text><Text style={{marginTop:10,color:'#667085'}}>The next screen will connect this form to POST /api/bookings and the matching pipeline.</Text><Pressable style={{marginTop:24,padding:16,borderRadius:14,backgroundColor:'#111827'}}><Text style={{color:'white',textAlign:'center'}}>Find best worker</Text></Pressable></View>}
